@@ -1,6 +1,6 @@
 .TH _printf(1)
 
-.Sh NAME
+.SH NAME
 .B _printf
 - A recreation of printf
 
