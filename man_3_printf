@@ -1,0 +1,65 @@
+.TH _printf(1)
+
+.SH NAME
+.B _printf
+- A recreation of printf
+
+.SH SYNOPSIS
+.B _printf
+- To use this funtion, you are required to include a header file
+
+.SH DESCRIPTION
+.B _printf
+This function _printf() prints an output according to the format described
+.SH USAGE
+The following key characters proceded by % symbol is needed to use _printf
+
+.RS
+.nf
+-%c: used to print characters
+-%s: used to print strings
+-%i: used to print integers of max and min size of an int type
+-%d: also used to print integers of max and min size of int type
+-%b: used to print binary form
+.RE
+
+.IP "fB-h|--helpfP
+Prints help
+
+.SH RETURN VALUES
+The _printf() function returns an integer
+
+.SH BUGS
+No known bugs.
+
+.SH FILES
+.TP
+.I
+/etc/_printf.conf
+.TP
+.I
+/usr/bin/_printf
+
+.SH EXIT STATUS
+.TP
+.B
+0
+Success
+
+.TP
+.B
+1
+Success but reboot required
+
+.TP
+.B
+2
+Success but no reboot required
+
+.SH SEE ALSO
+printf (3)
+
+.SH AUTHOR
+.PP
+Uwem Dickson and
+Eluu-vincent Winnie.
