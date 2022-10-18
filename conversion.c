@@ -94,5 +94,5 @@ char *convert_rot13(char *str)
 		i++;
 	}
 	s[i] = '\0';
-	return (s);
+	return (s); /* Rteurn function*/
 }
