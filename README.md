@@ -1,4 +1,4 @@
-Group projet (Printf)
+Group project (Printf)
 
 This printf project is a simple recreation of the printf function
 Tasks:
