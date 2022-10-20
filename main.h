@@ -27,10 +27,6 @@ char *convert_base(unsigned long nb, unsigned int base, int upper);
 char *_strdup(char *str);
 char *convert_base_pointer(unsigned long p);
 
-int get_flags(const char *format, int *i);
-int get_width(const char *format, int *i, va_list list);
-int get_precision(const char *format, int *i, va_list list);
-int get_size(const char *format, int *i);
 /**
  * struct flags_printf - struct conversion to function
  * @c: flag string
@@ -42,4 +38,4 @@ typedef struct flags_printf
 	char *c;
 	int (*f)(va_list);
 } flags_p;
-#endif /* MAIN HEADER FILE*/
+#endif
